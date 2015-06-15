@@ -10,12 +10,13 @@
 %% Execute test for a gived module
 %% Raise an exception if the test fail
 check_test(Module) ->
+    io:format("===============~nTesting module : ~s~n===============~n", [Module]),
     case eunit:test(Module) of 
         {error, Reason} ->
             io:format("Test failure: ~p~n", [Reason]),
             throw(travis_test_failure);
         ok ->
-            io:format("Test succeeded"),
+            io:format("Test succeeded~n"),
             ok;
         _ ->
             io:format("Unknown error~n"),
