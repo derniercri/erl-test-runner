@@ -1,6 +1,5 @@
-# ERL-travis-bootstrap
-Travis is a powerful open-source tool for Continous Integration.
-With Erlang, we have to use **Rebar**. In some contexts, Rebar is not really suitable. **Erl-travis-bootstrap** is a little script to use Travis with **EUnit** and without Rebar. You just have to run `./run_test.sh ebin_folder moduleA moduleB ... moduleX` where ebin_folder is the path to your compiled test modules and moduleN are Eunit test's modules.
+#erl-test-runner
+**erl-test-runner** is a minimalist test runner for Erlang with easily travis integration. 
 
 ## Installation
 
