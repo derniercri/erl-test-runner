@@ -16,6 +16,9 @@ install:
 	cp run_test.sh /usr/lib/erl-test-runner/erl-test-runner
 	chmod 755 /usr/lib/erl-test-runner/erl-test-runner
 
+uninstall:
+	rm -R /usr/lib/erl-test-runner
+
 clean:
 	rm -rf ebin/*.beam
 	rm -rf erl_crash.dump
