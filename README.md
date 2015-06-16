@@ -23,4 +23,4 @@ Example : `/usr/lib/erl-test-runner/erl-test-runner ./ebin test1 test2 test3`
 
 
 ## use example
-You can see a use's example at [https://github.com/altor/erl-test-runner-example](https://github.com/altor/erl-test-runner-example "erl-test-runner-example")
+You can see a use's example at [https://github.com/altor/erl-test-runner-example](https://github.com/derniercri/erl-test-runner-example "erl-test-runner-example")
