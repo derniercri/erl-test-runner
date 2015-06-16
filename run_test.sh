@@ -1,6 +1,5 @@
 #!/bin/sh
-BIN=erl-travis-bootstrap/
-
+BIN=$(dirname $0)/bin
 EBIN=$1
 
 if [ ! -e $EBIN  ]
