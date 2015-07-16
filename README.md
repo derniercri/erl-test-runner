@@ -18,9 +18,9 @@ Example : `/usr/lib/erl-test-runner/erl-test-runner ./ebin test1 test2 test3`
 
 ## Travis usage
 
-* copy the script install-dependencies.sh at your root's project and add the following line to your .travis.yml `install: install-dependencies.yml`
+* copy the script folder `travis` which contains the installation script `install-dependencies.sh` at your root's project and add the following line to your .travis.yml `install: ./travis/install-dependencies.sh`
 * in your Makefile add a rule named `test` which will launch the test-runner (see the previous section)
 
 
 ## use example
-You can see a use's example at [https://github.com/altor/erl-test-runner-example](https://github.com/derniercri/erl-test-runner-example "erl-test-runner-example")
+You can see a use's example at [https://github.com/derniercri/erl-test-runner-example](https://github.com/derniercri/erl-test-runner-example "erl-test-runner-example")
